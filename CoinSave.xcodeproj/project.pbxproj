@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		537970E8452EA59ADE95A806 /* Pods_CoinSaverUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07990E044754837BAB7C545E /* Pods_CoinSaverUITests.framework */; };
 		7024B3A821170975005663E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7024B3A721170975005663E0 /* AppDelegate.swift */; };
 		7024B3AA21170975005663E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7024B3A921170975005663E0 /* ViewController.swift */; };
 		7024B3AD21170975005663E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7024B3AB21170975005663E0 /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 		7024B3B521170977005663E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7024B3B321170977005663E0 /* LaunchScreen.storyboard */; };
 		7024B3C021170977005663E0 /* CoinSaverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7024B3BF21170977005663E0 /* CoinSaverTests.swift */; };
 		7024B3CB21170977005663E0 /* CoinSaverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7024B3CA21170977005663E0 /* CoinSaverUITests.swift */; };
+		7024B3D921170C01005663E0 /* CoinType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7024B3D821170C01005663E0 /* CoinType.swift */; };
+		76C059247DE27A7D10BCE20B /* Pods_CoinSaverTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 645F2D14C1DC9A6035E18581 /* Pods_CoinSaverTests.framework */; };
+		A82A85212650F683923739B7 /* Pods_CoinSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2635169C870F98C45A750715 /* Pods_CoinSaver.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7024B3A421170975005663E0 /* CoinSaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinSaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00621B029583EF4577B3AE5D /* Pods-CoinSaverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinSaverTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoinSaverTests/Pods-CoinSaverTests.release.xcconfig"; sourceTree = "<group>"; };
+		07990E044754837BAB7C545E /* Pods_CoinSaverUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoinSaverUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2635169C870F98C45A750715 /* Pods_CoinSaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoinSaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BC72D52C57043F9E0149FD4 /* Pods-CoinSaverUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinSaverUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoinSaverUITests/Pods-CoinSaverUITests.release.xcconfig"; sourceTree = "<group>"; };
+		349BB2CB2B83F38CE596E19D /* Pods-CoinSaver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinSaver.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoinSaver/Pods-CoinSaver.debug.xcconfig"; sourceTree = "<group>"; };
+		645F2D14C1DC9A6035E18581 /* Pods_CoinSaverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoinSaverTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E6B36A08AD7FBA436A3624B /* Pods-CoinSaverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinSaverTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoinSaverTests/Pods-CoinSaverTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7024B3A421170975005663E0 /* CoinSave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinSave.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7024B3A721170975005663E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7024B3A921170975005663E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7024B3AC21170975005663E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -43,12 +54,15 @@
 		7024B3B121170977005663E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7024B3B421170977005663E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7024B3B621170977005663E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7024B3BB21170977005663E0 /* CoinSaverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinSaverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7024B3BB21170977005663E0 /* CoinSaveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinSaveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7024B3BF21170977005663E0 /* CoinSaverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinSaverTests.swift; sourceTree = "<group>"; };
 		7024B3C121170977005663E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7024B3C621170977005663E0 /* CoinSaverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinSaverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7024B3C621170977005663E0 /* CoinSaveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinSaveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7024B3CA21170977005663E0 /* CoinSaverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinSaverUITests.swift; sourceTree = "<group>"; };
 		7024B3CC21170977005663E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7024B3D821170C01005663E0 /* CoinType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinType.swift; sourceTree = "<group>"; };
+		981CD02B3FC7ACBCFC12E537 /* Pods-CoinSaverUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinSaverUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoinSaverUITests/Pods-CoinSaverUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DAB9396C441A092C18C41D04 /* Pods-CoinSaver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinSaver.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoinSaver/Pods-CoinSaver.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A82A85212650F683923739B7 /* Pods_CoinSaver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76C059247DE27A7D10BCE20B /* Pods_CoinSaverTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				537970E8452EA59ADE95A806 /* Pods_CoinSaverUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,15 +100,17 @@
 				7024B3BE21170977005663E0 /* CoinSaverTests */,
 				7024B3C921170977005663E0 /* CoinSaverUITests */,
 				7024B3A521170975005663E0 /* Products */,
+				D67BA7ED1730577BE487F86C /* Pods */,
+				ACCFA7360C19EE42FD0BCBC3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		7024B3A521170975005663E0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7024B3A421170975005663E0 /* CoinSaver.app */,
-				7024B3BB21170977005663E0 /* CoinSaverTests.xctest */,
-				7024B3C621170977005663E0 /* CoinSaverUITests.xctest */,
+				7024B3A421170975005663E0 /* CoinSave.app */,
+				7024B3BB21170977005663E0 /* CoinSaveTests.xctest */,
+				7024B3C621170977005663E0 /* CoinSaveUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,6 +125,7 @@
 				7024B3B321170977005663E0 /* LaunchScreen.storyboard */,
 				7024B3B621170977005663E0 /* Info.plist */,
 				7024B3AE21170975005663E0 /* CoinSaver.xcdatamodeld */,
+				7024B3D821170C01005663E0 /* CoinType.swift */,
 			);
 			path = CoinSaver;
 			sourceTree = "<group>";
@@ -128,13 +148,37 @@
 			path = CoinSaverUITests;
 			sourceTree = "<group>";
 		};
+		ACCFA7360C19EE42FD0BCBC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2635169C870F98C45A750715 /* Pods_CoinSaver.framework */,
+				645F2D14C1DC9A6035E18581 /* Pods_CoinSaverTests.framework */,
+				07990E044754837BAB7C545E /* Pods_CoinSaverUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D67BA7ED1730577BE487F86C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				349BB2CB2B83F38CE596E19D /* Pods-CoinSaver.debug.xcconfig */,
+				DAB9396C441A092C18C41D04 /* Pods-CoinSaver.release.xcconfig */,
+				6E6B36A08AD7FBA436A3624B /* Pods-CoinSaverTests.debug.xcconfig */,
+				00621B029583EF4577B3AE5D /* Pods-CoinSaverTests.release.xcconfig */,
+				981CD02B3FC7ACBCFC12E537 /* Pods-CoinSaverUITests.debug.xcconfig */,
+				2BC72D52C57043F9E0149FD4 /* Pods-CoinSaverUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7024B3A321170975005663E0 /* CoinSaver */ = {
+		7024B3A321170975005663E0 /* CoinSave */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7024B3CF21170977005663E0 /* Build configuration list for PBXNativeTarget "CoinSaver" */;
+			buildConfigurationList = 7024B3CF21170977005663E0 /* Build configuration list for PBXNativeTarget "CoinSave" */;
 			buildPhases = (
+				FA8866F90C8357921BF8142F /* [CP] Check Pods Manifest.lock */,
 				7024B3A021170975005663E0 /* Sources */,
 				7024B3A121170975005663E0 /* Frameworks */,
 				7024B3A221170975005663E0 /* Resources */,
@@ -143,15 +187,16 @@
 			);
 			dependencies = (
 			);
-			name = CoinSaver;
+			name = CoinSave;
 			productName = CoinSaver;
-			productReference = 7024B3A421170975005663E0 /* CoinSaver.app */;
+			productReference = 7024B3A421170975005663E0 /* CoinSave.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7024B3BA21170977005663E0 /* CoinSaverTests */ = {
+		7024B3BA21170977005663E0 /* CoinSaveTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7024B3D221170977005663E0 /* Build configuration list for PBXNativeTarget "CoinSaverTests" */;
+			buildConfigurationList = 7024B3D221170977005663E0 /* Build configuration list for PBXNativeTarget "CoinSaveTests" */;
 			buildPhases = (
+				821EA53F4ED6DEF6430630E7 /* [CP] Check Pods Manifest.lock */,
 				7024B3B721170977005663E0 /* Sources */,
 				7024B3B821170977005663E0 /* Frameworks */,
 				7024B3B921170977005663E0 /* Resources */,
@@ -161,15 +206,16 @@
 			dependencies = (
 				7024B3BD21170977005663E0 /* PBXTargetDependency */,
 			);
-			name = CoinSaverTests;
+			name = CoinSaveTests;
 			productName = CoinSaverTests;
-			productReference = 7024B3BB21170977005663E0 /* CoinSaverTests.xctest */;
+			productReference = 7024B3BB21170977005663E0 /* CoinSaveTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7024B3C521170977005663E0 /* CoinSaverUITests */ = {
+		7024B3C521170977005663E0 /* CoinSaveUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7024B3D521170977005663E0 /* Build configuration list for PBXNativeTarget "CoinSaverUITests" */;
+			buildConfigurationList = 7024B3D521170977005663E0 /* Build configuration list for PBXNativeTarget "CoinSaveUITests" */;
 			buildPhases = (
+				F27DC3A8444FDFF47C46339F /* [CP] Check Pods Manifest.lock */,
 				7024B3C221170977005663E0 /* Sources */,
 				7024B3C321170977005663E0 /* Frameworks */,
 				7024B3C421170977005663E0 /* Resources */,
@@ -179,9 +225,9 @@
 			dependencies = (
 				7024B3C821170977005663E0 /* PBXTargetDependency */,
 			);
-			name = CoinSaverUITests;
+			name = CoinSaveUITests;
 			productName = CoinSaverUITests;
-			productReference = 7024B3C621170977005663E0 /* CoinSaverUITests.xctest */;
+			productReference = 7024B3C621170977005663E0 /* CoinSaveUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +253,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7024B39F21170975005663E0 /* Build configuration list for PBXProject "CoinSaver" */;
+			buildConfigurationList = 7024B39F21170975005663E0 /* Build configuration list for PBXProject "CoinSave" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +266,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7024B3A321170975005663E0 /* CoinSaver */,
-				7024B3BA21170977005663E0 /* CoinSaverTests */,
-				7024B3C521170977005663E0 /* CoinSaverUITests */,
+				7024B3A321170975005663E0 /* CoinSave */,
+				7024B3BA21170977005663E0 /* CoinSaveTests */,
+				7024B3C521170977005663E0 /* CoinSaveUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -254,11 +300,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		821EA53F4ED6DEF6430630E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoinSaverTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F27DC3A8444FDFF47C46339F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoinSaverUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA8866F90C8357921BF8142F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoinSaver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7024B3A021170975005663E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7024B3D921170C01005663E0 /* CoinType.swift in Sources */,
 				7024B3B021170975005663E0 /* CoinSaver.xcdatamodeld in Sources */,
 				7024B3AA21170975005663E0 /* ViewController.swift in Sources */,
 				7024B3A821170975005663E0 /* AppDelegate.swift in Sources */,
@@ -286,12 +390,12 @@
 /* Begin PBXTargetDependency section */
 		7024B3BD21170977005663E0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7024B3A321170975005663E0 /* CoinSaver */;
+			target = 7024B3A321170975005663E0 /* CoinSave */;
 			targetProxy = 7024B3BC21170977005663E0 /* PBXContainerItemProxy */;
 		};
 		7024B3C821170977005663E0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7024B3A321170975005663E0 /* CoinSaver */;
+			target = 7024B3A321170975005663E0 /* CoinSave */;
 			targetProxy = 7024B3C721170977005663E0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -367,7 +471,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -422,7 +526,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -434,42 +538,47 @@
 		};
 		7024B3D021170977005663E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 349BB2CB2B83F38CE596E19D /* Pods-CoinSaver.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 895Q7MTPTC;
 				INFOPLIST_FILE = CoinSaver/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = uk.egogames.CoinSaver;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.egodev.MoneyCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7024B3D121170977005663E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAB9396C441A092C18C41D04 /* Pods-CoinSaver.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 895Q7MTPTC;
 				INFOPLIST_FILE = CoinSaver/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = uk.egogames.CoinSaver;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.egodev.MoneyCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		7024B3D321170977005663E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E6B36A08AD7FBA436A3624B /* Pods-CoinSaverTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,12 +594,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoinSaver.app/CoinSaver";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoinSave.app/CoinSave";
 			};
 			name = Debug;
 		};
 		7024B3D421170977005663E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00621B029583EF4577B3AE5D /* Pods-CoinSaverTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,12 +616,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoinSaver.app/CoinSaver";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoinSave.app/CoinSave";
 			};
 			name = Release;
 		};
 		7024B3D621170977005663E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 981CD02B3FC7ACBCFC12E537 /* Pods-CoinSaverUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +643,7 @@
 		};
 		7024B3D721170977005663E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BC72D52C57043F9E0149FD4 /* Pods-CoinSaverUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -553,7 +665,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7024B39F21170975005663E0 /* Build configuration list for PBXProject "CoinSaver" */ = {
+		7024B39F21170975005663E0 /* Build configuration list for PBXProject "CoinSave" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7024B3CD21170977005663E0 /* Debug */,
@@ -562,7 +674,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7024B3CF21170977005663E0 /* Build configuration list for PBXNativeTarget "CoinSaver" */ = {
+		7024B3CF21170977005663E0 /* Build configuration list for PBXNativeTarget "CoinSave" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7024B3D021170977005663E0 /* Debug */,
@@ -571,7 +683,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7024B3D221170977005663E0 /* Build configuration list for PBXNativeTarget "CoinSaverTests" */ = {
+		7024B3D221170977005663E0 /* Build configuration list for PBXNativeTarget "CoinSaveTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7024B3D321170977005663E0 /* Debug */,
@@ -580,7 +692,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7024B3D521170977005663E0 /* Build configuration list for PBXNativeTarget "CoinSaverUITests" */ = {
+		7024B3D521170977005663E0 /* Build configuration list for PBXNativeTarget "CoinSaveUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7024B3D621170977005663E0 /* Debug */,
